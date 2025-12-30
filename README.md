@@ -35,23 +35,19 @@ The following diagram illustrates how we maintain consistency and reduce costs:
 
 ```mermaid
 graph LR
-    A[Player Input] -->|Raw Text| B(Judge AI)
-    B -->|Structured Intent| C{Python Engine}
-    C -->|Optimized Prompt| D(Narrator AI)
+    A[Player Input] -->|Raw Text| B[Intent Analysis]
+    B -->|Structured Intent| C{Python Core}
+    C -->|Optimized Prompt| D(Narrator LLM)
     D -->|Atmospheric Story| A
-    
+
     subgraph "Logic Core"
     B
     C
     end
     
-    subgraph "Creative Core"
-    D
-    end
-    
-    style C fill:#f96,stroke:#333,stroke-width:2px,color:white
-    style D fill:#9f9,stroke:#333,stroke-width:2px
-
+    %% Eğer stil veriyorsan kod burada bitmeli
+    style A stroke-width:2px
+```
 
 ## 🔧 Tech Stack
 
