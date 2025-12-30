@@ -19,7 +19,7 @@ NarrativeNode implements a proprietary multi-agent system designed to enforce lo
 ### 1. The "AI Judge" System (Hallucination Firewall)
 Unlike traditional systems that rely solely on a creative writer agent, NarrativeNode introduces a strict **"Judge Agent."**
 * **Function:** Before any AI-generated narrative reaches the player, it passes through the Judge.
-* **Logic:** The Judge compares the generated output against the **Game Rules (JSON)** and **World State**.
+* **Logic:** The Judge analyses the generated input by the **Game Rules (Engine)** and **World State**.
 * **Result:** If the generated content violates a rule (e.g., an NPC using magic in a non-magic zone), the Judge rejects it and forces a regeneration. This ensures a systematic, coherent world.
 
 ### 2. Iterative Fine-Tuning Pipeline
