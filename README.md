@@ -52,4 +52,4 @@ Players are empowered to shape the world using Generative AI, but strictly withi
 
 **NarrativeNode** is aiming to set a new standard for reliability in AI-generated media.
 
-📧 **Contact:**
+📧 **Contact:** narrativenode.labs@gmail.com
