@@ -65,6 +65,6 @@ graph LR
 
 ## 🤝 Contact & Collaboration
 
-NarrativeNode is aiming to set a new standard for reliability in AI-generated media.
+NarrativeNode is aiming to set a new standard for reliability in AI-generated storytelling.
 
 📧 **Contact:** narrativenode.labs@gmail.com
